@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { QueryRequest, QueryResponse } from '../types';
 
-const API_BASE_URL = import.meta.env.PROD ? 'https://asktrace.prd.gcp.csyeteam03.xyz' : '/api';
+const API_BASE_URL = '/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
