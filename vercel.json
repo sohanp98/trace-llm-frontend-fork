@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "https://asktrace.prd.gcp.csyeteam03.xyz/$1"
+      }
+    ]
+  }
+  
